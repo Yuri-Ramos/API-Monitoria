@@ -1,0 +1,19 @@
+POST http://localhost:8081/api/tasks
+Content-Type: application/json
+
+
+{
+  {
+  "descricao": "string",
+  "category": {
+    "id": 1
+  },
+  "user": {
+    "id": 1
+  }
+}
+}
+
+###
+
+GET http://localhost:8081/api/tasks

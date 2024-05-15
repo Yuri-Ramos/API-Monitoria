@@ -1,0 +1,21 @@
+POST http://localhost:8081/api/category
+Content-Type: application/json
+
+
+{
+    "nome": "limpeza"
+}
+
+###
+
+GET http://localhost:8081/api/category
+###
+
+PUT http://localhost:8081/api/category/5
+Content-Type: application/json
+
+
+{
+    "nome": "DR 1"
+
+}

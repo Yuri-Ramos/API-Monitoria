@@ -1,0 +1,52 @@
+
+###
+
+GET http://localhost:8081/api/users
+
+
+
+
+###
+POST http://localhost:8081/api/users
+Content-Type: application/json
+
+
+{
+    "nome": "Task 1",
+    "email": "maashduas"
+   
+}
+###
+PUT http://localhost:8081/api/users/8
+Content-Type: application/json
+
+
+{
+  
+ {
+  
+  "nome": "string",
+  "email": "string",
+  "senha": "string",
+  "cpf": "string",
+  "tasks": null
+}
+  
+}
+
+###
+DELETE http://localhost:8081/api/users/1
+Content-Type: application/json
+
+
+{
+    "nome": "DR 1",
+    "email": "maashduas",
+    "senha": "123456",
+    "cpf": "12345678901"
+}
+
+
+###
+GET http://localhost:8081/api/users/4
+Content-Type: application/json
