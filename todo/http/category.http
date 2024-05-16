@@ -8,7 +8,7 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:8081/api/category
+GET http://localhost:8081/api/category/7
 ###
 
 PUT http://localhost:8081/api/category/5
@@ -19,3 +19,7 @@ Content-Type: application/json
     "nome": "DR 1"
 
 }
+###
+
+DELETE  http://localhost:8081/api/category/11
+Content-Type: application/json

@@ -28,7 +28,7 @@ public class User {
     private String senha;
     @Column
     private String cpf;
-    @Column(nullable = false)
+    @Column
     private String urlFoto;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
@@ -84,6 +84,14 @@ public class User {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getUrlFoto() {
+        return urlFoto;
+    }
+
+    public void setUrlFoto(String urlFoto) {
+        this.urlFoto = urlFoto;
     }
 
 }
